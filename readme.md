@@ -2,7 +2,7 @@
 
 Sistema para guardar links desenvolvido em PHP + MySQL
 
-![MyLinks](https://raw.githubusercontent.com/fernandovaller/mylinks/master/screenshot.png)
+![MyLinks](https://raw.githubusercontent.com/fernandovaller/MyLink/master/screenshot.png)
 
 ### Prerequisites
 
