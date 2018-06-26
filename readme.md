@@ -7,9 +7,11 @@ Sistema para guardar links desenvolvido em PHP + MySQL
 ### Prerequisites
 
 Instalar as dependência via npm
-``
+
+```
+Na pasta ../public: 
 npm install
-``
+```
 
 Criar banco mylinks;
 Mudar configurações do banco no arquivo app\config\config.php
