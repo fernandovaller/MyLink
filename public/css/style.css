@@ -1,0 +1,13 @@
+body { }		
+.apresentacao { background: #fff; }
+.servicos .card-body { height: 280px; }	
+.servicos .card-body .btn {   }	
+.texto { font-size: 18px; }
+.card-servicos { height: 210px; }
+.bg-silver { background: #f9f9f9; }
+.links .media h6 a { color: #343a40; }
+.list-group {   }
+.list-group .list-group-item {  padding: 8px 15px; }
+.list-group .list-group-item:hover { background: #f9f9f9; }
+.list-group .list-group-item a {display: block;}
+.list-group .list-group-item a:hover { text-decoration: none; }

@@ -1,0 +1,3 @@
+Sistema utiliza conceitos MVC + procedural
+
+Exemplo baseado em https://www.youtube.com/channel/UCZ6hWRouBVsr8luNAUMtsiw

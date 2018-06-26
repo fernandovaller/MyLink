@@ -1,0 +1,31 @@
+
+<h3>Links Gerenciar</h3>
+<hr>
+
+<table class="table table-striped table-bordered datatable" style="width:100%">
+	<thead>
+		<tr>
+			<th>id</th>
+			<th>titulo/link</th>
+			<th>Descricao</th>			
+			<th width="100">Action</th>			
+		</tr>
+	</thead>
+	<tbody>
+<?php foreach ($dados as $row) {  ?>
+		<tr>
+			<td><?=$row['id']?></td>
+			<td>
+				<?=$row['titulo']?><br>
+				<?=$row['link']?>				
+			</td>
+			<td><?=$row['descricao']?></td>
+			<td>
+				<a href="javascript:void(0);" data-id="<?=$row['id']?>" class="btn btn-warning btn-sm edit" ><i class="fa fa-edit"></i></a>	
+				<a href="/links/delete/?id=<?=$row['id']?>" data-msg="Deseja excluir?" class="btn btn-danger btn-sm confirme"><i class="fa fa-trash"></i></a>	
+			</td>
+		</tr>
+<?php } ?>		
+
+	</tbody>
+</table>
