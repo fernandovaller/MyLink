@@ -4,12 +4,12 @@
 */
 switch ($_SERVER['SERVER_NAME']) {
 
-	case 'localhost':	
+	case 'mylinks.local':	
 	$DB_DRIVER = 'mysql';
 	$DB_HOST = 'localhost';
-	$DB_NAME = '';
-	$DB_USER = '';
-	$DB_PWD  = '';
+	$DB_NAME = 'mylinks';
+	$DB_USER = 'root';
+	$DB_PWD  = 'root2017';
 	break;
 
 	// Usar o sistema com banco SQLite
